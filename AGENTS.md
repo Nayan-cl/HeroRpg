@@ -30,11 +30,11 @@ Conjurer save cleanup, PR #1's missing spec) are the top of the next cycle's que
    tier-class names: `site/homepage_2006.md`).
 3. **Never touch `D:\Claude - collection folder\Test game generation\`** — unrelated project.
 4. **Workflow (user-directed):** the lead session does scoping, specs, sim gates, planning, and
-   review; implementation and mechanical work goes to Sonnet subagents. **Lead model = Fable**
-   (user-directed 2026-07-13, reverting the 2026-07-12 Opus handoff). The lead model is set by the
-   session's own model (the model picker / `/model`), not something a running session can switch
-   for itself — start or set the session to Fable to lead. **Read `docs/LEAD-PLAYBOOK.md` at the start of
-   any dev cycle** — it is the Fable-era process handoff (sim methodology, delegation briefs,
+   review; implementation and mechanical work goes to Sonnet subagents. **Lead model = Opus**
+   (user-directed 2026-11-25; Fable is no longer the lead — it led from 2026-07-13 to 2026-11-25). The
+   lead model is set by the session's own model (the model picker / `/model`), not something a running
+   session can switch for itself — start or set the session to Opus to lead. **Read `docs/LEAD-PLAYBOOK.md`
+   at the start of any dev cycle** — the process handoff written while Fable led (sim methodology, delegation briefs,
    review protocol, failure-mode catalog). The recurring procedures are project skills:
    `/balance-sim` (mandatory before locking any combat constant), `/delegate-review` (spawn
    briefs + delivery review), `/release`. Give agents their FULL brief up front in the spawn
